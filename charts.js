@@ -167,7 +167,6 @@ function buildCharts(sample) {
         gauge: {
           axis: { range:[null,10], tickwidth: 2, tickcolor: "black"},
           bar: { color: "black" },
-          bgcolor: "lavander",
           steps: [{range :[0,2], color: "red"},
                   {range: [2,4], color: "orange"},
                   {range: [4,6], color: "yellow"},
